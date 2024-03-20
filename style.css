@@ -88,3 +88,64 @@ select {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: inter, Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  width: 24rem;
+  padding: 1rem;
+}
+
+img {
+  border-radius: 50%;
+  transform: scale(55%);
+  margin: 0 auto;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: hsl(75, 94%, 57%);
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+p {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.buttons {
+  display: grid;
+  margin-top: 1rem;
+}
+
+.button {
+  margin: 0.5rem;
+  border-radius: 0.8rem;
+  height: 50px;
+  width: 20rem;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-size: 0.8rem;
+}
+
+.button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
